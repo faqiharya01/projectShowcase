@@ -68,6 +68,7 @@ p {
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin: 10px;
 }
 
 .project img {
@@ -117,4 +118,35 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+
+  .project {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  .project {
+    width: 65%;
+  }
+}
+
+/* Responsif: Mengubah layout project menjadi satu kolom pada layar lebih kecil */
+@media (max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
+
+  .project {
+    width: 85%;
+  }
 }
